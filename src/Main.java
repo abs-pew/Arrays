@@ -11,6 +11,10 @@ public class Main {
         studentNames[2] = "Dominic";
         studentNames[3] = "Sara";
 
-
+int[] OneToTenIntegrs = new int[10];
+for (int i = 0; i < OneToTenIntegrs.length; i++) {
+    OneToTenIntegrs[i] = i + 1;
+    System.out.println(OneToTenIntegrs[i]);
+}
     }
 }

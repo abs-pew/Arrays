@@ -25,6 +25,12 @@ System.out.println("Sum of 1 - 10 = " + sum1To10);
  //       System.out.println(Arrays.stream(oneToTenIntegrs).sum());
         System.out.println("Largest Number = " + Arrays.stream(oneToTenIntegrs).max().getAsInt());
 
+int[] elevenToTwentyIntegers = new int[10];
+for (int i = 0; i < elevenToTwentyIntegers.length; i++)
+{
+    elevenToTwentyIntegers[i] = i + 11;
+//    System.out.println(elevenToTwentyIntegers[i]);
+}
 
 
     }

@@ -11,10 +11,15 @@ public class Main {
         studentNames[2] = "Dominic";
         studentNames[3] = "Sara";
 
-int[] OneToTenIntegrs = new int[10];
-for (int i = 0; i < OneToTenIntegrs.length; i++) {
-    OneToTenIntegrs[i] = i + 1;
-    System.out.println(OneToTenIntegrs[i]);
+int[] oneToTenIntegrs = new int[10];
+int sum1To10 = 0;
+for (int i = 0; i < oneToTenIntegrs.length; i++)
+{
+    oneToTenIntegrs[i] = i + 1;
+    System.out.println(oneToTenIntegrs[i]);
+    sum1To10 = sum1To10 + oneToTenIntegrs[i];
 }
+System.out.println("Sum of 1 - 10 = " + sum1To10);
+
     }
 }

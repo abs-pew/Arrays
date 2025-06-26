@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -20,6 +22,10 @@ for (int i = 0; i < oneToTenIntegrs.length; i++)
     sum1To10 = sum1To10 + oneToTenIntegrs[i];
 }
 System.out.println("Sum of 1 - 10 = " + sum1To10);
+ //       System.out.println(Arrays.stream(oneToTenIntegrs).sum());
+        System.out.println("Largest Number = " + Arrays.stream(oneToTenIntegrs).max().getAsInt());
+
+
 
     }
 }

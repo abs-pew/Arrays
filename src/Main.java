@@ -32,6 +32,19 @@ for (int i = 0; i < elevenToTwentyIntegers.length; i++)
 //    System.out.println(elevenToTwentyIntegers[i]);
 }
 
+int[] sumOfArrays = new int[10];
+for (int i = 0; i < elevenToTwentyIntegers.length; i++)
+{
+    sumOfArrays[i] = oneToTenIntegrs[i] + elevenToTwentyIntegers[i];
+    System.out.println(oneToTenIntegrs[i] + " + " + elevenToTwentyIntegers[i] + " = " + sumOfArrays[i]);
+}
+
+/*
+for  (int tempArray : sumOfArrays )
+{
+    System.out.println(tempArray);
+}
+*/
 
     }
 }
